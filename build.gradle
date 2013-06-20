@@ -77,7 +77,7 @@ tomcatRun.doFirst {
 }
 
 
-[tomcatRun, tomcatStop]*.stopPort = 8080
+[tomcatRun, tomcatStop]*.stopPort = 8081
 [tomcatRun, tomcatStop]*.stopKey = 'stopKey'
 
 task(cucumber, type: JavaExec) {
